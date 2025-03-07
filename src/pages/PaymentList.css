@@ -1,0 +1,81 @@
+.orderList {
+  /* margin: 0 auto; */
+}
+.orderList__status {
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.orderList__status--Canceled {
+  background-color: #ffcccc;
+  color: red;
+}
+
+.orderList__status--Paid {
+  background-color: #ccffcc;
+  color: green;
+}
+
+.orderList__status--PendingPayment {
+  background-color: #ffffcc;
+  color: orange;
+}
+.orderList__item {
+  cursor: pointer;
+}
+
+.Order {
+  background-color: #171717;
+  height: 100%;
+  width: 100%;
+
+  color: rgb(255, 255, 255);
+  padding: 16px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 6px;
+}
+.orderList {
+  margin-bottom: 16px;
+}
+.btnPayment {
+  display: block;
+  width: 100%;
+  background-color: rgb(139, 169, 250);
+  padding: 0.75rem;
+  text-align: center;
+  color: rgba(17, 24, 39, 1);
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 6px;
+}
+.btnCanceled {
+  display: block;
+  width: 100%;
+  background-color: rgb(250, 139, 139);
+  padding: 0.75rem;
+  text-align: center;
+  color: rgba(17, 24, 39, 1);
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 6px;
+}
+.btnG {
+  display: flex;
+}
+table {
+  width: 100%;
+}

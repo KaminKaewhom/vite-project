@@ -1,0 +1,25 @@
+.inventoryManager {
+  background-color: #171717;
+  height: 100vh;
+  overflow: auto;
+}
+.inventoryManager__table {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+.inventoryManager img {
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.inventoryManager table,
+.inventoryManager th,
+.inventoryManager td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
