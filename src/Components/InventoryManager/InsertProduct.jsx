@@ -24,7 +24,7 @@ export default function InsertProduct() {
     };
 
     try {
-      const response = await fetch("http://localhost:5000/insertProducts", {
+      const response = await fetch("/insertProducts", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(productData),

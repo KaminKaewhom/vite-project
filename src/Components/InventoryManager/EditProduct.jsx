@@ -33,7 +33,7 @@ export default function EditProduct({
     };
 
     try {
-      const response = await fetch("http://localhost:5000/update-product", {
+      const response = await fetch("/update-product", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(updatedProduct),
